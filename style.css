@@ -1,0 +1,159 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.row{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.col{
+    width: 45%;
+}
+img{
+    width: 100%;
+}
+p{
+    font-family: inherit;
+    font-size: 18px;
+    color: gray;
+    line-height: 1.5;
+}
+button.btn{
+    font-family: inherit;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-image: linear-gradient(90deg, #EC4F92, #ED4B72);
+    transition: transform .3s ease-in-out;
+}
+button.btn:hover{
+    transform: translateY(-10px);
+    transition: transform .3s ease-in-out;
+}
+
+/*===================== Hero Section Design =====================*/
+.hero-section{
+    background-image: url(images/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-section .col-1{
+    padding-top: 150px;
+}
+.hero-section h1{
+    font-size: 75px;
+    font-weight: 900;
+    color: #EC4978;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/*===================== About Section Design =====================*/
+.about-section{
+    background-image: url(images/biography-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-section .col-2{
+    padding-top: 100px;
+}
+.about-section .col-2 h2{
+    font-family: inherit;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+/*===================== Portfolio Section Design =====================*/
+.portfolio-section{
+    background-image: url(images/latest-work-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+.portfolio-section .row-2 .col{
+    width: 30%;
+}
+.portfolio-section .row-1 h2{
+    width: 100%;
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*===================== Footer Section Design =====================*/
+.footer-section{
+    background-image: url(images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-section .row-1 .col-1{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section .row-1 .col-1 h2{
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+}
+.footer-section .row-1 .col-1 .testimonial{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section .row-1 .col-1 .testimonial h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.footer-section .row-1 .col-1 .testimonial h3{
+    width: 80%;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.footer-section .row-1 .col-1 .contact{
+    background-image: linear-gradient(90deg, #EC4F92, #ED4B72);
+    padding: 50px 0px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-top: 50px;
+    width: 80%;
+}
+.footer-section .row-1 .col-1 .contact h3{
+    font-size: 36px;
+    font-weight: 500;
+}
+.footer-section .row-1 .col-1 .contact h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.footer-section .row-1 .col-1 .copy-rights{
+    margin-top: 50px;
+}
